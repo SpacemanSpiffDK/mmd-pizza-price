@@ -42,9 +42,11 @@ fieldset div+div {
 }
 
 input {
-	padding: 5px;
+	padding: 10px;
 	text-align: right;
 	width: 5em;
+	background-color: #eee;
+	border: 1px solid #ccc;
 }
 
 legend {
@@ -53,7 +55,7 @@ legend {
 }
 
 button {
-	padding: 10px 50px;
+	padding: 20px 50px;
 	background-color: rgb(34, 138, 31);
 	border: none;
 	color: #fff;

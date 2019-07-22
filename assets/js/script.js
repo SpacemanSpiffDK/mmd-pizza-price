@@ -31,7 +31,7 @@ function calculate() {
         <strong>Large pizza price per area: ${largePricePerArea.toFixed(4)} DKK/cm<sup>2</sup></strong>
     </p>
     <p>
-        You save: ${percentDecrease.toFixed(2)} %
+        <strong>You save: ${percentDecrease.toFixed(2)}%</strong>
     </p>`;
     // insert result string in the element in the HTML
     document.querySelector("#result-text").innerHTML = resultStr;
