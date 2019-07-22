@@ -54,10 +54,11 @@ legend {
 
 button {
 	padding: 10px 50px;
-	background-color: #333;
+	background-color: rgb(34, 138, 31);
 	border: none;
 	color: #fff;
 	cursor: pointer;
+	font-weight: 600;
 }
 
 #result-block {
