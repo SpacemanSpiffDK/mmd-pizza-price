@@ -8,7 +8,6 @@ function calculate() {
     let largePrice = document.querySelector("#largePrice").value;
 
     // Area of circle = PI*r^2
-
     let normalArea = Math.PI * Math.pow(normalDiameter / 2, 2);
     let normalPricePerArea = normalPrice / normalArea;
 
@@ -16,7 +15,6 @@ function calculate() {
     let largePricePerArea = largePrice / largeArea;
 
     // % Decrease = Decrease / Original Number × 100
-
     let percentDecrease = 100 - (largePricePerArea / normalPricePerArea * 100);
 
     let resultStr = `
@@ -35,6 +33,7 @@ function calculate() {
     <p>
         You save: ${percentDecrease.toFixed(2)} %
     </p>`;
+    // insert result string in the element in the HTML
     document.querySelector("#result-text").innerHTML = resultStr;
     // Show result block
     document.querySelector("#result-block").classList.add("active");

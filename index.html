@@ -12,28 +12,28 @@
 
 <body>
     <header>
-        <h1>Pizza price calculater</h1>
+        <h1>Pizza savings calculater</h1>
     </header>
     <main>
-            <fieldset>
-                <legend>Normal pizza</legend>
-                <div>
-                    <label for="normalDiameter">Diameter (cm)</label><input id="normalDiameter" type="number" value="30">
-                </div>
-                <div>
-                    <label for="normalPrice">Price (DKK)</label><input id="normalPrice" type="number" value="70">
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Large pizza</legend>
-                <div>
-                    <label for="largeDiameter">Diameter (cm)</label><input id="largeDiameter" type="number" value="45">
-                </div>
-                <div>
-                    <label for="largePrice">Price (DKK)</label><input id="largePrice" type="number" value="140">
-                </div>
-            </fieldset>
-            <button onclick="javascript:calculate()">Calculate</button>
+        <fieldset>
+            <legend>Normal pizza</legend>
+            <div>
+                <label for="normalDiameter">Diameter (cm)</label><input id="normalDiameter" type="number" value="30">
+            </div>
+            <div>
+                <label for="normalPrice">Price (DKK)</label><input id="normalPrice" type="number" value="70">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Large pizza</legend>
+            <div>
+                <label for="largeDiameter">Diameter (cm)</label><input id="largeDiameter" type="number" value="50">
+            </div>
+            <div>
+                <label for="largePrice">Price (DKK)</label><input id="largePrice" type="number" value="140">
+            </div>
+        </fieldset>
+        <button onclick="javascript:calculate()">Calculate</button>
         <div id="result-block">
             <h2>Result</h2>
             <div id="result-text"></div>
